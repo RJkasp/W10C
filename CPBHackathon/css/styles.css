@@ -1,0 +1,19 @@
+#selectHeader{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.selection:hover{
+    padding: 10px;
+    transition: all 0.5s ease-in-out ;
+    box-shadow: 10px 10px 10px #386abb ;
+}
+
+.selection{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #ffcc03;
+    margin: 20px auto;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}

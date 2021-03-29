@@ -1,0 +1,50 @@
+h1{
+    color: #386abb;
+    background: #ffcc03;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+a:hover{
+    box-shadow: 5px 5px 5px #ffcc03;
+    color: #ffcc03;
+    background: #386abb;
+}
+a{
+    text-decoration: none;
+    color: #386abb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #386abb;
+    padding: 5px;
+}
+#attack:hover{
+    margin: 10px;
+    transition: all 0.35s ease-in-out;
+    color: #ffcc03;
+}
+#attack{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #386abb;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+
+}
+button:hover{
+    background: #ffcc03;
+    color: #386abb;
+    padding: 15px;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 5px #386abb;
+}
+#selectedPokemon{
+    position: relative;
+}
