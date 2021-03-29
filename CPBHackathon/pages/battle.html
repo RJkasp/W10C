@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/battle.css">
 </head>
+
 <body>
     <header>
         <h1>BATTLE</h1>
-    <a href="../index.html">HOME</a>
+        <a href="../index.html">HOME</a>
     </header>
-   
-   
-    <main>       
-        
-        <div id="selectedPokemon"><progress id='userHealth' value='100' min='0' max='100'></progress><button onclick="decreaseHealth()">Attack</button></div>
 
-        <div id="comp"><progress id='compHealth' value='100' min='0' max='100'></progress><img src="../img/gyarados.png" alt="gyarados"></div>
-    </main>
     
+    <main>
+        <!--After they make their selection, they will be taken to the battle page -->
+        <!--The Pokemon they selected -->
+        <!--Their Pokemon health points  -->
+        <div id="selectedPokemon"><progress id='userHealth' value='100' min='0' max='100'></progress>
+            <!--Their Pokemon attack options -->
+            <!--The user should be able to select an attack which will "do damage" to the enemy -->
+            <button onclick="decreaseHealth()">Attack</button></div>
+            <!-- The enemy Pokemon health points -->
+        <div id="comp"><progress id='compHealth' value='100' min='0' max='100'></progress>
+
+            
+            <h2>Gyardos</h2><img src="../img/gyarados.png" alt="gyarados">
+        </div>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="../js/battle.js"></script>
 </body>
+
 </html>

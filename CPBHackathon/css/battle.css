@@ -1,3 +1,10 @@
+main{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
 h1{
     color: #386abb;
     background: #ffcc03;
@@ -22,14 +29,14 @@ a{
 }
 #attack:hover{
     margin: 10px;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.55s ease-in-out;
     color: #ffcc03;
 }
 #attack{
     border-radius: 5px;
     box-shadow: 5px 5px 5px #386abb;
     text-align: center;
-    transition: all 0.35s ease-in-out;
+    transition: all 0.55s ease-in-out;
 
 }
 button:hover{
@@ -38,8 +45,11 @@ button:hover{
     padding: 15px;
 }
 button{
+    display: block;
     position: absolute;
-    bottom: 0;
+    bottom: -60px;
+    left: 50px;
+    margin: 20px auto;
     border-radius: 5px;
     padding: 10px;
     width: 100px;
@@ -47,4 +57,9 @@ button{
 }
 #selectedPokemon{
     position: relative;
+    left: 10%;
+}
+progress {
+    position: absolute;
+    top: 30;
 }
